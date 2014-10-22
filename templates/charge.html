@@ -7,15 +7,15 @@
      <div id="error_message"></div>
     <form id="submit_token_id_form" method="POST" action="/charges">
       <input name="token_id" type="hidden" id="token_id">
-      <span class="left"><label>Amount</label><input name="amount" type="text"></span>
-      <span class="left"><label>Description</label><input name="description" type="text"></span>
+      <span class="left"><label>Amount</label><input name="amount" type="text" value="500"></span>
+      <span class="left"><label>Description</label><input name="description" type="text" value="Test Charge"></span>
     </form>
     <form>
-      <span class="left"><label>Card Name</label><input data-conekta="card[name]" type="text"></span>
-      <span class="left"><label>Card Number</label><input data-conekta="card[number]" type="text"></span>
-      <span class="left"><label>Card Expiry Month</label><input data-conekta="card[exp_month]" type="text"></span>
-      <span class="left"><label>Card Expiry Year</label><input data-conekta="card[exp_year]" type="text"></span>
-      <span class="left"><label>Card CVC</label><input data-conekta="card[cvc]" type="text"></span>
+      <span class="left"><label>Card Name</label><input data-conekta="card[name]" type="text" value="James Dean"></span>
+      <span class="left"><label>Card Number</label><input data-conekta="card[number]" type="text" value="4242424242424242"></span>
+      <span class="left"><label>Card Expiry Month</label><input data-conekta="card[exp_month]" type="text" value="12"></span>
+      <span class="left"><label>Card Expiry Year</label><input data-conekta="card[exp_year]" type="text" value="15"></span>
+      <span class="left"><label>Card CVC</label><input data-conekta="card[cvc]" type="text" value="123"></span>
     </form>
     <button id="submit_card_form" class="left">Submit</button>
 
