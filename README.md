@@ -16,8 +16,12 @@ If you are using Heroku + Foreman
 ```bash
 gem install foreman
 foreman start
-#open http://127.0.0.1:5000
+#open http://127.0.0.1:5000 to test app
+heroku create
+git push heroku master
+#open your heroku app, e.g. https://secret-crag-2820.herokuapp.com/
 ```
+
 
 License
 -------
