@@ -22,8 +22,9 @@ git push heroku master
 #open your heroku app
 ```
 
-For an live example checkout [this heroku app](https://secret-crag-2820.herokuapp.com/)
-For further reading checkout [our docs](https://www.conekta.io/es/docs/tutoriales/pagos-con-tarjeta)
+For an live example checkout [this heroku app](https://secret-crag-2820.herokuapp.com/).
+
+For further reading checkout [our docs](https://www.conekta.io/es/docs/tutoriales/pagos-con-tarjeta).
 
 License
 -------
