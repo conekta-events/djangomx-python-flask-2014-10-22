@@ -9,7 +9,7 @@ To run, execute the following commands:
 ```bash
 virtualenv venv --distribute
 source venv/bin/activate
-pip install Flask gunicorn conekta
+pip install -r requirements.txt --allow-all-external
 ```
 If you are using Heroku + Foreman
 
