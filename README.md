@@ -9,9 +9,14 @@ To run, execute the following commands:
 ```bash
 virtualenv venv --distribute
 source venv/bin/activate
-pip install Flask gunicorn
-pip install conekta
+pip install Flask gunicorn conekta
+```
+If you are using Heroku + Foreman
+
+```bash
+gem install foreman
 foreman start
+#open http://127.0.0.1:5000
 ```
 
 License
