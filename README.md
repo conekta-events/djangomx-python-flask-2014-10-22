@@ -24,7 +24,11 @@ git push heroku master
 
 For an live example checkout [this heroku app](https://secret-crag-2820.herokuapp.com/).
 
-For further reading checkout [our docs](https://www.conekta.io/es/docs/tutoriales/pagos-con-tarjeta).
+For further reading checkout our [docs](https://www.conekta.io/es/docs/tutoriales/pagos-con-tarjeta).
+
+To see your test charges in our [admin](https://admin.conekta.io/es#charges.charge?id=5448327019ce883a43000219).
+
+Cualquier duda que tengas, [mandanos un correo!](mailto:soporte@conekta.io).
 
 License
 -------
