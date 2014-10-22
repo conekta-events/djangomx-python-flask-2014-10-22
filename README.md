@@ -19,9 +19,11 @@ foreman start
 #open http://127.0.0.1:5000 to test app
 heroku create
 git push heroku master
-#open your heroku app, e.g. https://secret-crag-2820.herokuapp.com/
+#open your heroku app
 ```
 
+For an live example checkout [this heroku app](https://secret-crag-2820.herokuapp.com/)
+For further reading checkout [our docs](https://www.conekta.io/es/docs/tutoriales/pagos-con-tarjeta)
 
 License
 -------
