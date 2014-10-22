@@ -18,7 +18,7 @@ def charge_create():
     conekta.api_key = 'key_eYvWV7gSDkNYXsmr'
 
     charge = conekta.Charge.create({
-        'amount':request.form['amount'],
+        'amount': int(float(request.form['amount'])*100),
         'currency':'MXN',
         'description':request.form['description'],
         'card':request.form['token_id']
